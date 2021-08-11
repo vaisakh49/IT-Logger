@@ -17,3 +17,5 @@ export const SearchBar = () => {
     </nav>
   );
 };
+
+export default SearchBar;

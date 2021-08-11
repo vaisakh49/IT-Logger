@@ -35,3 +35,5 @@ export const Logs = () => {
     </ul>
   );
 };
+
+export default Logs;
