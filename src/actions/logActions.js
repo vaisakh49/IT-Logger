@@ -38,7 +38,6 @@ export const getLogs = () => async (dispatch) => {
   }
 };
 
-setLoading;
 export const setLoading = () => {
   return {
     type: SET_LOADING,
