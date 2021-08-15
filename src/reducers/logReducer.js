@@ -29,6 +29,11 @@ export default (state = initialState, action) => {
         logs: action.payload,
         loading: false,
       };
+    case ADD_LOG:
+      return {
+        ...state,
+        logs: [...state.logs, action.payload],
+      };
     case LOGS_ERROR:
       console.error(action.payload);
       return {

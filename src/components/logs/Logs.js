@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import LogItem from './LogItem';
 import Preloader from '../layout/Preloader';
@@ -8,7 +8,7 @@ import { getLogs } from '../../actions/logActions';
 export const Logs = ({ log: { logs, loading }, getLogs }) => {
   useEffect(() => {
     getLogs();
-  }, []);
+  }, [getLogs]);
 
   if (loading || logs === null) {
     return <Preloader />;
@@ -29,6 +29,7 @@ export const Logs = ({ log: { logs, loading }, getLogs }) => {
 
 Logs.protoTypes = {
   log: PropTypes.object.isRequired,
+  getLogs: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({

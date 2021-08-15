@@ -55,7 +55,7 @@ export const AddTechModel = () => {
       </div>
       <div className='modal-footer'>
         <a
-          href='#!'
+          href='#!1'
           onClick={onSubmit}
           className='modal-close waves-effect blue waves-light btn'
         >
