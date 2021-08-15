@@ -1,5 +1,27 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "test1",
+      "attention": false,
+      "tech": "john doe",
+      "date": "2021-08-15T19:27:25.253Z"
+    },
+    {
+      "id": 2,
+      "message": "test2",
+      "attention": false,
+      "tech": "kamilia",
+      "date": "2021-08-15T19:28:18.456Z"
+    },
+    {
+      "message": "test3",
+      "attention": false,
+      "tech": "amelia",
+      "date": "2021-08-15T18:56:03.652Z",
+      "id": 3
+    }
+  ],
   "techs": [
     {
       "id": 1,
