@@ -1,13 +1,5 @@
 {
-  "logs": [
-    {
-      "message": "test1",
-      "attention": true,
-      "tech": "john doe",
-      "date": "2021-08-15T17:08:43.322Z",
-      "id": 1
-    }
-  ],
+  "logs": [],
   "techs": [
     {
       "id": 1,
