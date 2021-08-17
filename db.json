@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "test1",
-      "attention": false,
-      "tech": "john doe",
-      "date": "2021-08-15T19:27:25.253Z"
-    },
-    {
       "id": 2,
       "message": "test2",
       "attention": false,
@@ -22,16 +15,5 @@
       "id": 3
     }
   ],
-  "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    }
-  ]
+  "techs": []
 }
