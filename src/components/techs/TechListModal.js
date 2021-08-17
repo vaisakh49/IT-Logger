@@ -34,10 +34,10 @@ export const TechListModel = ({ techs, loading, getTechs }) => {
     </div>
   );
 };
-// TechListModel.propTypes = {
-//   techs: PropTypes.object.isRequired,
-//   loading: PropTypes.bool.isRequired,
-// };
+TechListModel.propTypes = {
+  techs: PropTypes.object.isRequired,
+  loading: PropTypes.bool.isRequired,
+};
 
 const mapStateToProps = (state) => ({
   techs: state.tech.techs,
