@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { deleteTech } from '../../actions/techAction';
+import { deleteTech } from '../../actions/techActions';
 
 import PropTypes from 'prop-types';
 

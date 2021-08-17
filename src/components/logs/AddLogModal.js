@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { addLog } from '../../actions/logActions';
-import TechSelectOption from '../techs/TechSelectOption';
+import TechSelectOption from '../techs/TechSelectOptions';
 import PropTypes from 'prop-types';
 
 import M from 'materialize-css/dist/js/materialize.min.js';

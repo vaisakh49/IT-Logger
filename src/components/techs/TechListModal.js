@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { getTechs } from '../../actions/techAction';
+import { getTechs } from '../../actions/techActions';
 import TechItem from './TechItem';
 import PropTypes from 'prop-types';
 
