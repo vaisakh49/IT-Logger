@@ -1,19 +1,23 @@
 {
   "logs": [
     {
-      "id": 2,
-      "message": "test2",
-      "attention": false,
-      "tech": "kamilia",
-      "date": "2021-08-15T19:28:18.456Z"
-    },
-    {
-      "message": "test3",
-      "attention": false,
-      "tech": "amelia",
-      "date": "2021-08-15T18:56:03.652Z",
-      "id": 3
+      "message": "updated some softwares",
+      "attention": true,
+      "tech": "vaisakh vasu",
+      "date": "2021-08-18T11:56:09.656Z",
+      "id": 4
     }
   ],
-  "techs": []
+  "techs": [
+    {
+      "firstName": "vaisakh",
+      "lastName": "vasu",
+      "id": 1
+    },
+    {
+      "firstName": "jhon",
+      "lastName": "doe",
+      "id": 2
+    }
+  ]
 }

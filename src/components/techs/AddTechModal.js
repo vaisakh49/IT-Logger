@@ -1,20 +1,29 @@
 import React, { useState, useEffect } from 'react';
+import { connect } from 'react-redux';
+import { addTech } from '../../actions/techActions';
+import PropTypes from 'prop-types';
+
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-export const AddTechModel = () => {
+export const AddTechModel = ({ addTech }) => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 
   useEffect(() => {
     // Auto init matirialize js
     M.AutoInit();
-  });
+  }, []);
 
   const onSubmit = () => {
     if (firstName === '' || lastName === '') {
       M.toast({ html: 'Please enter first and last name' });
     } else {
-      console.log(firstName, lastName);
+      const newTech = {
+        firstName,
+        lastName,
+      };
+      addTech(newTech);
+      M.toast({ html: 'Added new Technitian' });
       //Clear Feilds
       setFirstName('');
       setLastName('');
@@ -66,4 +75,8 @@ export const AddTechModel = () => {
   );
 };
 
-export default AddTechModel;
+AddTechModel.propTypes = {
+  addTech: PropTypes.func.isRequired,
+};
+
+export default connect(null, { addTech })(AddTechModel);
