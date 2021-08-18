@@ -16,14 +16,14 @@ export const AddTechModel = ({ addTech }) => {
 
   const onSubmit = () => {
     if (firstName === '' || lastName === '') {
-      M.toast({ html: 'Please enter first and last name' });
+      M.toast({ html: 'Please enter both fields' });
     } else {
       const newTech = {
         firstName,
         lastName,
       };
       addTech(newTech);
-      M.toast({ html: 'Added new Technitian' });
+      M.toast({ html: `Added ${firstName} ${lastName} as Technitian` });
       //Clear Feilds
       setFirstName('');
       setLastName('');

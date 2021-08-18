@@ -10,14 +10,14 @@
   ],
   "techs": [
     {
-      "firstName": "vaisakh",
-      "lastName": "vasu",
-      "id": 1
-    },
-    {
       "firstName": "jhon",
       "lastName": "doe",
       "id": 2
+    },
+    {
+      "firstName": "vaisakh",
+      "lastName": "vasu",
+      "id": 3
     }
   ]
 }
