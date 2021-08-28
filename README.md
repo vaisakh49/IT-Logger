@@ -6,5 +6,7 @@ This application allows employees to post problems within the company and updati
  <img src="READMEdocs/it-logger-1.jpg" width="800px" alt="" />
   <h3>Add new log</h3>
  <img src="READMEdocs/it-logger-2.jpg" width="800px" alt="" />
-  <h3>Home</h3>
+  <h3>Add Technician</h3>
+ <img src="READMEdocs/it-logger-4.jpg" width="800px" alt="" />
+ <h3>Technitian list</h3>
  <img src="READMEdocs/it-logger-3.jpg" width="800px" alt="" />
